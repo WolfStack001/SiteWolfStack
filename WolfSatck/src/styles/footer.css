@@ -1,0 +1,156 @@
+@media only screen and (max-width: 980px) {
+        
+    #container_pre_footer{
+        background: #1C2A4F;
+        width: 100%;
+    }
+
+    #container_pre_footer hr{
+        width: 80%;
+        margin: auto;
+        color: #EAB9F6;
+    }
+
+    #container_pre_footer #logo_footer{
+        display: flex;
+        margin: auto;
+        padding: 9%;
+    }
+
+    .pre_footer_conteudo h5{
+        color: #EAB9F6;
+        font-size: 14pt;
+    }
+
+    .pre_footer_conteudo a{
+        text-decoration: none;
+        color: #FFFCFC;
+        font-size: 10pt;
+    }
+
+    /* inicio redes sociais */
+    #pre_footer_img{
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        margin: auto;
+        padding: 6%;
+    }
+    /* final redes sociais */
+    .pre_footer_conteudo{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding: 8%;
+    }
+
+    /* inicio footer */
+    footer{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10pt;
+        margin: auto;
+        padding: 6%;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+
+    footer p{
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 981px) {
+    #container_pre_footer{
+        background: #1C2A4F;
+        width: 100%;;
+    }
+
+    .pre_footer_conteudo a{
+        text-decoration: none;
+    }
+
+    .pre_footer_conteudo a:hover{
+        color: #4f76e2;
+    }
+
+    #container_pre_footer hr{
+        display: none;
+    }
+
+    #logo_footer{
+        width: 200px;
+        margin: 15% 0% ;
+    }
+
+    #pre_footer_img img{
+        width: 50px;
+        margin-right: 5%;  
+        margin-bottom: 20%;
+    }
+
+    #pre_footer_img img:hover{
+        cursor: pointer;
+    }
+
+    #pre-footer{
+        display: flex;
+        width: 70%;
+        margin: auto;
+    }
+
+    .pre_footer_conteudo{
+        display: flex;  
+        justify-content: space-between;
+        margin-left: 20%;
+        margin-top: 2.5%;
+        margin: auto;
+    }
+
+    .pre_footer_conteudo #novidade{
+        margin-right: -20%;
+    }
+
+    .pre_footer_conteudo h5{
+        color: #EAB9F6;
+        font-size: 20pt;
+    }
+
+    .pre_footer_conteudo a{
+        text-decoration: none;
+        color: #FFFCFC;
+        font-size: 16pt;
+    }
+
+    #container_footer{
+        background: #1C2A4F;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        height: 70px;
+        margin: auto;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #FFFCFC;
+        font-size: 16pt;
+    }
+
+    footer a:hover{
+        color: #4f76e2;
+    }
+
+    footer p{
+        color: #FFFCFC;
+        font-size: 16pt;
+    }
+
+}

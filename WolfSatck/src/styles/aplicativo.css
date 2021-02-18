@@ -1,0 +1,289 @@
+@media only screen and (max-width: 980px) {
+    .apresentation img{
+        width: 100%;
+        z-index: -1;
+    }
+
+    .apresentation {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentation h3{
+        padding: 2% 30% 0%;
+        font-size: 16;
+        color: white;
+        z-index: 2;
+    }
+
+    .apresentation h3, .apresentation p {
+        position: absolute;
+        text-align: center;
+    }
+    
+    .apresentation p{
+        /* padding: 15px; */
+        margin: 0% 8%;
+        font-size: 12pt;
+        margin-top: 35%;
+        color: white;
+        z-index: 2;
+    }
+
+    /*Segunda imagem*/
+    article #img_internetConect{
+        display: flex;
+        margin: auto;
+        padding: 1rem 2rem .5rem;
+    }
+    
+    /* Final Segunda imagem */
+
+    /*Article*/
+    article #agilidade{
+        color: #3A5FC8;
+        background-color: #D4DCF1;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: 6% 10% 5%;
+    }
+
+    article #agilidade h5{
+        padding: .8em;
+        font-size: 10pt;
+        color: #2FAF83;
+        background-color: #cefff0;
+    }
+
+    article h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .5% 10% 5%;
+    }
+
+    #destaque{
+        color: #2FAF83;
+    }
+
+    article p{
+        color: #6B6363;
+        margin: .5% 10% 10%;
+    }
+    /*Final article*/
+
+    /*Section*/
+    #container_vantagem #benefícios{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: 6% auto 3%;
+    }
+    
+    #container_vantagem #benefícios h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    #container_vantagem h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .5% 10% 5%;
+        text-align: center;
+    }
+
+    #destaque{
+        color: #2FAF83;
+    }
+
+    #quadro_vantagens{
+        background-color: white;
+        width: 90%;
+        padding: 1%;
+        margin: auto;
+        margin-bottom: 5%;
+        border-radius: 20px;
+        border-top: solid 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-width: 8px;
+        border-top-color:  #2FAF83;
+    }
+
+    #quadro_vantagens h5{
+        margin: 5%;
+    }
+
+    #quadro_vantagens p{
+        margin: 5%;
+    }
+
+    #quadro_vantagens hr{
+        width: 50%;
+    }
+    #quadro_vantagens img { 
+        display: inline-flex;
+    }
+
+    /*Final Section*/
+
+}
+
+@media only screen and (min-width: 981px) {
+    
+    .main_block{
+	    margin: 0 auto;
+	    width: 1400px;
+
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+    .apresentation img{
+        width: 100%;
+        z-index: -1;
+    }
+
+    .apresentation {
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentation h3{
+        font-size: 40pt;
+        color: white;
+        z-index: 2;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-top: -47%;
+    }
+
+    .apresentation p{
+        padding: 5rem;
+        margin: auto;
+        font-size: 20pt;
+        color: white;
+        z-index: 2;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 27%;
+    }
+
+    /*Segunda imagem*/
+    article{
+        display: flex;
+        margin: auto;
+        margin-bottom: 7%;
+        width: 80%;
+    }
+
+    article #img_internetConect{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+     /*Article*/
+     article #agilidade{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 20pt;
+        text-align: center;
+        width: 30%;
+        border-radius: 20px;
+        margin: .1% 10% 2%;
+    }
+
+    article #agilidade h5{
+        padding: .8em;
+        font-size: 14pt;
+    }
+
+    article h4{
+        color: #092038;
+        margin: .5%;
+    }
+
+    #destaque{
+        color: #2FAF83;
+    }
+
+    article p{
+        color: #6B6363;
+        margin: 1%;
+        font-size: 18pt;
+    }
+    /*Final article*/
+
+     /*Section*/
+    #container_vantagem #benefícios{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 20pt;
+        text-align: center;
+        width: 15%;
+        border-radius: 20px;
+        margin: .1% auto 2%;
+    }
+    
+    #container_vantagem #benefícios h5{
+        padding: .8em;
+        font-size: 14pt;
+    }
+
+    #container_vantagem h4{
+        color: #092038;
+        margin: .5% 10% 2%;
+        text-align: center;
+    }
+
+    #destaque{
+        color: #2FAF83;
+    }
+
+
+    /*Quadro de vantagens*/
+    #quadro_vantagens{
+        background-color: white;
+        width: 80%;
+        padding: 1%;
+        margin: auto;
+        margin-bottom: 5%;
+        border-radius: 20px;
+        border-top: solid 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-width: 8px;
+        border-top-color:  #2FAF83;
+    }
+
+    #quadro_vantagens h5{
+        margin: 5%;
+        font-size: 20pt;
+    }
+
+    #quadro_vantagens p{
+        margin: 5%;
+        font-size: 18pt;
+    }
+
+    #quadro_vantagens hr{
+        width: 50%;
+    }
+    #quadro_vantagens img { 
+        display: inline-flex;
+        width: 3%;
+    }
+
+    /*Final Section*/
+    
+
+}

@@ -1,0 +1,328 @@
+@media only screen and (max-width: 980px) {
+
+    .apresentation img{
+        width: 100%;
+        z-index: -1;
+    }
+
+    .apresentation {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentation h3{
+        padding: 2% 30% 4%;
+        font-size: 16pt;
+        color: white;
+        z-index: 2;
+    }
+
+    .apresentation h3, .apresentation p {
+        position: absolute;
+        text-align: center;
+    }
+    
+    .apresentation p{
+        /* padding: 15px; */
+        margin: 0% 8%;
+        font-size: 12pt;
+        margin-top: 35%;
+        color: white;
+        z-index: 2;
+    }
+
+    /*Segunda imagem*/
+    article #img_internetConect { 
+        margin: 10%;
+    }
+    article #sobre{
+        color: #3A5FC8;
+        background-color: #D4DCF1;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: 8% 10% 5%;
+    }
+
+    article #sobre h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    article h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .5% 10% 5%;
+    }
+
+    #destaque{
+        color: #4D5BB5;
+    }
+
+    article p{
+        color: #6B6363;
+        margin: .5% 10% 10%;
+    }
+    /*Final article*/
+
+    /*Section*/
+    #container_vantagem #vantagens{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: .1% auto 3%;
+    }
+    
+    #container_vantagem #vantagens h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    #container_vantagem h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .1% 1% 5% 9%;
+        text-align: center;
+    }
+
+    #container_vantagem #conteudo_vantagem{
+        width: 90%;
+    }
+
+    #quadro_vantagens{
+        background-color: white;
+        width: 90%;
+        padding: 1%;
+        margin: auto;
+        margin-bottom: 5%;
+        border-radius: 20px;
+
+        border-top: solid 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-width: 8px;
+        border-top-color:  #2FAF83;
+    }
+
+    #quadro_vantagens h5{
+        margin: 5%;
+    }
+
+    #quadro_vantagens p{
+        margin: 5%;
+    }
+
+    #quadro_vantagens hr{
+        width: 50%;
+    }
+    
+    /*box images*/
+    #box_images{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 90%;
+    }
+
+    #box_images img{
+        margin-bottom: 5%;
+        margin-right: 2%;
+        width: 30%;
+    }
+
+    #box_images #img_side {
+        display: none;
+    }
+
+    #seg_destaque{
+        color: #2FAF83;
+    }
+
+    .box_advantages {
+
+        margin: auto;
+        margin-top: 0;
+        display: inline-block;
+
+    }
+    /*Final Section*/
+    
+}
+
+@media only screen and (min-width: 981px) {
+    
+    .main_block{
+	    margin: 0 auto;
+	    width: 1400px;
+
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+    .apresentation img{
+        width: 100%;
+        /* height: 300px; */
+        /* margin-top: 30%; */
+        z-index: -1;
+    }
+
+    .apresentation {
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentation h3{
+        /* padding: 2% 30% 0%; */
+        font-size: 40pt;
+        color: white;
+        z-index: 2;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-top: -47%;
+    }
+
+    .apresentation p{
+        padding: 5rem;
+        margin: auto;
+        font-size: 20pt;
+        color: white;
+        z-index: 2;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 27%;
+    }
+
+    /*Segunda imagem*/
+    article{
+        display: flex;
+        margin-top: 5%;
+    }
+
+    article #img_internetConect {
+        width: 80%;
+        margin: 0% 4% 0%;
+    }
+
+    article #sobre{
+        color: #3A5FC8;
+        background-color: #D4DCF1;
+        font-size: 20pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: .1% 10% 5%;
+    }
+
+    article #sobre h5{
+        padding: .8em;
+        font-size: 14pt;
+    }
+
+    article h4{
+        color: #092038;
+        margin: .5% 10% 5%;
+    }
+
+    #destaque{
+        color: #4D5BB5;
+    }
+
+    article p{
+        color: #6B6363;
+        margin: .5% 10% 10%;
+        font-size: 18pt;
+    }
+    /*Final article*/
+
+    /*Section*/
+    #container_quadro_vantagem{
+        display: flex;
+    }
+
+    #container_vantagem #vantagens{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 12pt;
+        text-align: center;
+        width: 25%;
+        border-radius: 20px;
+        margin: .1% auto 3%;
+    }
+    
+    #container_vantagem #vantagens h5{
+        padding: .8em;
+    }
+
+    #container_vantagem h4{
+        font-size: 18pt;
+        color: #092038;
+        margin: .1% 5% 4%;
+        text-align: center;
+    }
+
+    #quadro_vantagens{
+        background-color: white;
+        width: 45%;
+        padding: 1%;
+        margin: 1% 1% 8% 5%;
+        border-radius: 20px;
+
+        border-top: solid 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-width: 8px;
+        border-top-color:  #2FAF83;
+    }
+
+    #quadro_vantagens h5{
+        margin: 5%;
+        font-size: 24pt;
+    }
+
+    #quadro_vantagens p{
+        margin: 5%;
+        font-size: 18pt;
+    }
+
+    #quadro_vantagens hr{
+        width: 50%;
+    }
+    
+    #seg_destaque{
+        color: #2FAF83;
+    }
+    
+    /*box images*/
+    #box_images {
+        display: flex;
+        margin-bottom: 5%;
+        
+    }
+
+    #box_images #img_colum{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    #box_images #img_side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    /*Final Section*/
+
+   
+}

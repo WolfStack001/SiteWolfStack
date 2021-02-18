@@ -1,0 +1,468 @@
+*{ 
+	padding: 0;
+	margin: 0;
+}
+
+/*root properties*/
+
+/* css to mobile */
+@media only screen and (max-width: 980px) {
+
+	.cabecalho img{
+		margin: 0% 5%;
+		margin-top: 4%;
+	}
+
+	.apresentation h2 { 
+		color: var(--primary-color);
+		font-size: 20pt;
+		font-style: bold;
+		margin: 3.5%;
+		margin-top: 30%;
+		text-align: center;
+	}
+	
+	.apresentation p { 
+		margin: .3rem 3rem;
+		color: var(--primary-color);
+		font-size: 16pt;
+		text-align: center;
+	}
+
+	.apresentation img{
+		display: flex;
+		margin: 5% auto;
+		margin-bottom: 15%;
+	}
+
+	.about { 
+		margin-left: 8%;
+		font-size: 16px;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 40px;
+	}
+
+	.about img { 
+		width: 35px;
+	}	
+
+	.about p{
+		color: var(--primary-color);
+		margin-right: 5px;
+	}
+	
+	.about h4 { 
+		vertical-align: middle;
+		color: var(--primary-color);
+	}
+
+	.destaques { 
+		color: var(--secondary-color);
+	}
+
+	.comments h4{
+		margin: 1% 8.5% 4%;
+		color: var(--primary-color);
+		
+	}
+	
+	.comments p{
+		color: var(--tertiary-color);
+		margin: 1% 10%;
+		padding-bottom: 4%;
+	}
+
+	.informes h3{
+		padding: 1% 10%;
+		color: var(--primary-color);
+	}
+
+	.informes p{
+		padding: 2% 10%;
+	}
+	
+	.informes img{
+		margin: 4% 2%;
+		padding: 2% .5%;
+		display: flex;
+		margin: auto;
+	}
+
+	.informativo { 
+		color: var(--quartenary-color);
+	}
+
+	.caption { 
+		color: var(--secondary-color);
+	}
+
+	.form{
+		background-color: rgb(255, 255, 255);
+		width: 72%;
+		margin: 15%;
+		border-radius: 20px;
+		box-shadow: 8px 33px 17px rgba(0, 0, 0, 0.25);
+	}
+
+	.form .button{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	
+	.form img {
+		margin-bottom: 10%;
+		width: 100%;
+	}
+
+	.form input[type='text']{
+		padding: 1px;
+		margin: 2% 7%;
+		border: thin solid ;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-color: #C4C4C4;
+		font-size: 10pt;
+		width: 85%;
+	}
+
+	.form input[type='submit'] { 
+		position: relative;
+		background-color: #335EE9;
+		color: white;
+		border: none;
+		bottom: 0;
+		padding-bottom: 0;
+		width: 100%;
+		height: 40px;
+		border-radius: 0px 0px 20px 20px;
+		
+	}
+
+	.more_information{
+		background-color: rgb(255, 255, 255);
+		width: 78%;
+		height: 235px;
+		align-items: center;
+		margin: .3% 12%;
+		border-radius: 20px;
+		box-shadow: 8px 33px 17px rgba(0, 0, 0, 0.25);
+		padding-top: 3%;
+		margin-bottom: 20%;
+	}
+
+	.more_information p{
+		font-size: 12pt;
+		padding: .7rem .3rem .6rem;
+		
+	}
+
+	.more_information #button_saibaMais{
+		background-color: #D9E3EF;
+		text-align: center;
+		padding: 10px;
+		margin-top: 10%;
+		border-radius: 0px 0px 20px 20px;
+	}
+
+	.more_information #button_saibaMais a{
+		text-decoration: none;
+		color: #8485A5;
+		width: 100px;
+	}
+	
+	.more_information p{
+		margin-top: 8%;
+		width: 90%;
+		height: 50%;
+		margin: 1% 5%;
+		color: #948E8E;
+		text-align: center;
+	}
+
+	.more_information .button_saibaMais{
+		margin: 6% 35%;
+		background-color: grey;
+	}
+
+
+	#empreendimento{
+		margin: auto;
+		padding: 2% ;
+		text-align: center;
+		background: rgb(235, 238, 253);
+		width: 60%;
+		height: 2.5rem;
+		border-radius: 45px;
+		color: #6C63FF;
+	}
+	
+	#empreendimento h4{
+		font-size: 14pt;
+		font-weight: 400;
+	}
+		
+	
+	.info_add {
+		background-color: #3f3d56;
+		width: 100%; 
+		height: 350px;	
+	}
+
+	.info_add #conteudo{
+		margin: 10px 30px;
+		color: #AFA4A4;
+	}
+
+	.info_add #conteudo h5{
+		color: white;
+	}
+
+	.info_add #conteudo p{
+		margin-top: 4%;
+	}
+
+	.info_add #conteudo img h5{ 	
+		color: white;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+}
+
+/* css to desktop */
+@media only screen and (min-width: 981px) {
+
+	/* estilizando Boas Vindas */
+
+	.main_block{
+	    margin: 0 auto;
+	    width: 1400px;
+
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+	.apresentation{
+		display: flex;
+		justify-content: space-between;
+		width: 85%;
+		margin: 0 auto;
+		margin-top: 14%;
+	}
+	
+	.apresentation h2 { 
+		color: var(--primary-color);
+		margin-top: 12%;
+		margin-bottom: 2%;
+		font-size: 40pt;
+		font-style: bold;
+		text-align: left;
+		/* width: 50%; */
+	}
+
+	.apresentation img{
+		width: 500px;
+	}
+	
+	.apresentation p { 
+		color: var(--primary-color);
+		font-size: 20pt;
+		text-align: left;
+		/* width: 30%; */
+
+	}
+
+	.destaques { 
+		color: var(--secondary-color);
+	}
+
+	/*Boas Vindas finalizado*/
+
+	article{
+		margin: 8%;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.about{
+		width: 30%;
+	}
+
+	.comments{
+		margin: auto;
+		width: 70%;
+	}
+
+	.informes{
+		display: flex;
+		justify-content: space-between;
+		width: 65%;
+		margin: auto;
+		margin-top: 5%;
+	}
+
+	.container_form_empreendimento{
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+		margin-top: 5%;
+		width: 80%;
+	}
+
+	.form{
+		background-color: rgb(255, 255, 255);
+		width: 40%;
+		height: 10%;
+		box-shadow: 8px 33px 17px rgba(0, 0, 0, 0.25);
+		margin-left: 90px;
+		border-radius: 20px;
+		margin-bottom: 5%;
+	}
+
+	.form .button{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	
+	.form img {
+		margin-bottom: 10%;
+		width: 100%;
+		border-radius: 20px 20px 0px 0px;
+	}
+
+	.form input[type='text']{
+		padding: 5px;
+		margin: 2% 7%;
+		border: thin solid ;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-color: #C4C4C4;
+		font-size: 10pt;
+		width: 85%;
+		font-size: 16pt;
+	}
+
+	.form input[type='email']{
+		padding: auto;
+	}
+
+	.form input[type='submit'] { 
+		position: relative;
+		background-color: #335EE9;
+		color: white;
+		border: none;
+		bottom: 0;
+		padding-bottom: 0;
+		width: 100%;
+		height: 50px;
+		border-radius: 0px 0px 20px 20px;
+		font-size: 18pt;
+	}
+
+	
+	#empreendimento{
+		font-variant: JIS83;
+		margin: auto;
+		padding: 1%;
+		text-align: center;
+		background: rgb(235, 238, 253);
+		width: 65%;
+		height: 2.8rem;
+		border-radius: 45px;
+		color: #6C63FF;
+		margin-bottom: 2%;
+	}
+	
+	#empreendimento h4{
+		font-size: 16pt;
+		font-weight: 400;
+		margin-top: 2%;
+	}
+		
+	.more_information{
+		background-color: rgb(255, 255, 255);
+		width: 40%;
+		height: 1%;
+		align-items: center;
+		margin-right: 100px;
+		border-radius: 20px;
+		box-shadow: 8px 33px 17px rgba(0, 0, 0, 0.25);
+		padding-top: 3%;
+		margin-bottom: 20%;
+		margin-top: 1%;
+	}
+
+	.more_information p{
+		font-size: 16pt;
+		padding: .7rem .3rem .6rem;
+		
+	}
+
+	.more_information #button_saibaMais{
+		background-color: #D9E3EF;
+		text-align: center;
+		padding: 10px;
+		margin-top: 10%;
+		border-radius: 0px 0px 20px 20px;
+	}
+
+	.more_information #button_saibaMais a{
+		text-decoration: none;
+		color: #8485A5;
+		width: 100px;
+		font-size: 16pt;
+	}
+	
+	.more_information p{
+		margin-top: 4%;
+		width: 90%;
+		margin: auto;
+		color: #948E8E;
+		text-align: center;
+	}
+
+	.more_information .button_saibaMais{
+		margin: 6% 35%;
+		background-color: grey;
+	}
+
+	.info_add {
+		background-color: #3f3d56;
+		width: 100%; 
+		height: 500px;	
+	}
+
+	.info_add #conteudo{
+		margin: auto;
+		color: #AFA4A4;
+		width: 70%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.info_add #conteudo img{
+		width: 50px;
+		margin-top: 16%;
+	}
+
+	.info_add #conteudo h5{
+		color: white;
+		font-size: 22pt;
+	}
+
+	.info_add #conteudo p{
+		margin-top: 2%;
+		font-size: 20pt;
+	}
+
+	#info_one{
+		margin-right: 100px;
+	}
+
+}

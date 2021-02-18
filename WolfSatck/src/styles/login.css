@@ -1,0 +1,239 @@
+@media only screen and (max-width: 980px) {
+  #container_form_to_criar_conta{
+    background: #2A2763;
+    padding: 1%;
+  }
+
+  form {
+    color: white;
+  }
+
+  #form_criar_conta {
+    margin: auto;
+    background-color: #6c63ff;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 5% auto 10%;
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding: 8%;
+  }
+  #form_criar_conta h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18pt;
+  }
+  #form_criar_conta span {
+    color: #88f0cc;
+  }
+  #form_criar_conta img {
+    margin-bottom: 10%;
+  }
+
+  label,
+  input[type="text"],
+  [type="email"],
+  [type="password"],
+  [type="date"] {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2.5%;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  label {
+    margin-top: 4%;
+    font-size: 16pt;
+    font-family: "Roboto" "Sans-serif";
+  }
+
+  input[type=checkbox] {
+    display: inline-block;
+    margin-top: 4%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-color: #2A2763;
+  }
+  .remember {
+    display: inline-block;
+    color: #00000090;
+    font-family: "Roboto" "Sans-serif";
+    font-weight: "Regular";
+    font-size: 13pt;
+  }
+  .lembrar {
+    text-align: left;
+    margin-left: 5%;
+  }
+  .forgot {
+    color: #00000090;
+    font-family: "Roboto" "Sans-serif";
+    font-weight: "Regular";
+    font-size: 13pt;
+    display: block;
+    text-align: left;
+    text-indent: 5%;
+    margin-top: 3%;
+  }
+
+  .button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2faf82;
+    color: white;
+    font-size: 15pt;
+  }
+
+  .link {
+    margin-top: 10%;
+    border-top: solid #322e7732;
+    width: 100%;
+  }
+  .link h3 {
+    margin-top: 5%;
+    color: white;
+  }
+  .inscreva {
+    background-color: #00000030;
+  }
+}
+
+@media only screen and (min-width: 981px) {
+  #container_form_to_criar_conta{
+    background: #2A2763;
+    padding: 1%;
+  }
+
+  form {
+    color: white;
+  }
+
+  #form_criar_conta {
+    margin: auto;
+    background-color: #6c63ff;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 20px;
+    width: 50%;
+    color: white;
+    font-family: "Poppins";
+    font-weight: normal;
+    margin: 5% auto 10%;
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding: 8%;
+  }
+
+  #form_criar_conta h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 22pt;
+  }
+
+  #form_criar_conta span {
+    color: #88f0cc;
+  }
+
+  #form_criar_conta img {
+    width: 40%;
+    margin-bottom: 7%;
+  }
+
+  label,
+  input[type="text"],
+  [type="email"],
+  [type="password"],
+  [type="date"] {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2.5%;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    font-size: 14pt;
+  }
+
+  label {
+    margin-top: 4%;
+    font-size: 20pt;
+    font-family: "Roboto" "Sans-serif";
+  }
+
+  input[type=checkbox] {
+    display: inline-block;
+    margin-top: 4%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-color: #2A2763;
+  }
+
+  .remember {
+    display: inline-block;
+    color: #00000090;
+    font-size: 18pt;
+  }
+
+  .lembrar {
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .forgot {
+    color: #00000090;
+    font-size: 14pt;
+    display: block;
+    text-align: left;
+    text-indent: 5%;
+    margin-top: 3%;
+  }
+
+  .button {
+    width: 60%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2faf82;
+    color: white;
+    font-size: 20pt;
+    margin-top: 5%;
+  }
+
+  .link {
+    margin-top: 10%;
+    border-top: solid #322e7732;
+    width: 100%;
+  }
+
+  .link h3 {
+    margin-top: 5%;
+    font-size: 18pt;
+    color: white;
+  }
+
+  .inscreva {
+    background-color: #00000030;
+    width: 80%;
+    font-size: 18pt;;
+  }
+}
