@@ -1,0 +1,20 @@
+@media only screen and (max-width: 980px) {
+    
+}
+
+@media only screen and (min-width: 981px) {
+
+	/* estilizando Boas Vindas */
+
+	.main_block{
+	    margin: 0 auto;
+	    width: 1400px;
+
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+    /* Final boas vindas */
+
+}

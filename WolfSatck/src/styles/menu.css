@@ -73,8 +73,9 @@ header {
   padding: 10px 15px;
 }
 .menu a:hover {
-  color: #3f3d5693;
+  color: #6c63ff;
 }
+
 .menu li {
   position: relative;
   font-weight: bold;
