@@ -94,6 +94,7 @@ header {
   border-radius: 10px;
   display: none;
 }
+
 .menu li ul {
   transition: 5s ease;
 }
